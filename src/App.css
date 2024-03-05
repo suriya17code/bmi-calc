@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  background-color: #bec395;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+width: 100%;
+justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 120px;
+}
+
+/* First Section Styles */
+.first {
+  margin: 20px;
+}
+
+.logo {
+  width: 240px;
+  height: 240px;
+}
+
+/* Content Section Styles */
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 500px; /* Adjust width as needed */
+  background-color: #afa75d;
+  border-radius: 5px;
+  padding: 20px;
+
+}
+
+.topic {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.inputclass {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+   padding: 10px;
+}
+
+.inputclass input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  margin-right: 20px;
+text-align: center;
+}
+.inputclass input::placeholder{
+  font-size: 18px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.btn.green {
+  background-color: #008000;
+  color: white;
+}
+
+.btn.red {
+  background-color: #b32e2e;
+  color: white;
+}
+
+/* Result Section Styles */
+.result {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+.mess{
+  text-align: center;
+}
+.cut {
+  display: flex;
+  justify-content: center;
+}
+
+.bmipoints {
+  text-align: center;
+}
+
+.bmipoints h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.bmiscale {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.underweight,.normal,.overweight,.obese{
+  padding: 10px;
+  border: 1px solid #656363;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  margin: 15px;
+  border-bottom: 5px solid#61d261;
+}
+
+/**/
+.selected{
+  border-bottom: 5px solid#bc1c07;
+  background-color: #908282;
+}
+.footnote{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(88, 86, 86);
+  font-weight: 600;
+}
+@media screen and (max-width: 667px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+}
