@@ -1,10 +1,9 @@
-/* General Styles */
 body {
   font-family: sans-serif;
   background-color: #bec395;
 }
 
-/* Container Styles */
+
 .container {
   display: flex;
 width: 100%;
@@ -14,7 +13,7 @@ justify-content: center;
   padding-top: 120px;
 }
 
-/* First Section Styles */
+
 .first {
   margin: 20px;
 }
@@ -24,7 +23,7 @@ justify-content: center;
   height: 240px;
 }
 
-/* Content Section Styles */
+
 .content {
   display: flex;
   flex-direction: column;
