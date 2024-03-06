@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./app.css";
-import image from "./assets/OIP (2).jpg";
 
+import image from "./assets/OIP (2).jpg";
+import './index.css'
 function App() {
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
