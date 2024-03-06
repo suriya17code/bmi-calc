@@ -6,13 +6,16 @@ body {
   
   .container {
     display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
     align-items: center;
     padding: 20px;
     padding-top: 120px;
   }
-  
+  .top{
+    display: flex;
+  }
   
   .first {
     margin: 20px;
@@ -82,6 +85,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     background-color: #f0f0f0;
+
   }
   .mess{
     text-align: center;
@@ -102,7 +106,7 @@ body {
   
   .bmiscale {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     text-align: center;
   }
   

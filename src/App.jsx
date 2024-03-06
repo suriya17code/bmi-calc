@@ -45,6 +45,7 @@ function App() {
 
   return (
     <div className="container">
+      <div className="top">
       <div className="first">
         <img src={image} width={250} height={250} alt="image" className="logo" />
       </div>
@@ -66,6 +67,7 @@ function App() {
         </div>
         <button className="btn green" onClick={calculateBMI}>Submit</button>
         <button className="btn red" onClick={clearForm}>Clear</button>
+      </div>
       </div>
       {result && (
         <div className="result">
